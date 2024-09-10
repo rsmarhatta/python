@@ -1,4 +1,4 @@
-import tkinter
+
 from tkinter import *
 import math
 
@@ -18,7 +18,7 @@ timer = None
 # ---------------------------- TIMER RESET ------------------------------- #
 def reset_timer():
     global reps
-    canvas.itemconfig(timer_text,text="00:00")
+    canvas.itemconfig(timer_text, text="00:00")
     timer_label.config(text="Timer")
     check_marks.config(text="")
     reps = 0
